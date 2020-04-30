@@ -1,0 +1,45 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": false,
+  "quoteProps": "consistent",
+  "jsxSingleQuote": false,
+  "semi": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "endOfLine": "auto",
+  "overrides": [
+    {
+      "files": ["*.json", ".eslintrc", ".tern-project"],
+      "options": {
+        "parser": "json",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.sass", "*.scss"],
+      "options": {
+        "parser": "scss",
+        "plugins": ["stylelint-prettier"],
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "parser": "css",
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": ["*.js", "*.jsx"],
+      "options": {
+        "parser": "babel",
+        "tabWidth": 2
+      }
+    }
+  ]
+}

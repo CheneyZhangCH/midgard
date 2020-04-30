@@ -1,3 +1,5 @@
+const path = require("path")
+
 const config = {
   projectName: 'mklij-web-mobile-mp',
   date: '2020-4-30',
@@ -30,6 +32,11 @@ const config = {
     ]
   },
   defineConstants: {
+  },
+  alias: {
+    '@/components': path.resolve(__dirname, '..', 'src/components'),
+    '@/common': path.resolve(__dirname, '..', 'src/common'),
+    '@/store': path.resolve(__dirname, '..', 'src/store'),
   },
   mini: {
     postcss: {

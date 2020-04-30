@@ -1,7 +1,7 @@
-import Taro, { FunctionComponent, ComponentClass } from '@tarojs/taro'
+import Taro, { FunctionComponent } from '@tarojs/taro'
 import { View, Button, Text } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
-import { useDispatch } from '@/common'
+import { useDispatch } from '../../common/index'
 import './index.scss'
 
 import useEffect = Taro.useEffect
